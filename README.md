@@ -281,7 +281,7 @@ print("Confusion matrix\n", confusion_matrix(test["y"], y_hat))
 ### 5.2 Interpretation  
 
 * **Accuracy 0.93 vs baseline 0.89**  
-  The “always-no” classifier already scores 0.89(i improve this mostly for new full dataset and new threshold method) because only 11 % of customers subscribe. Our model’s +4 pp shows meaningful lift.
+  The “always-no” classifier already scores 0.89(i improve this mostly by the new threshold method) because only 11 % of customers subscribe. My model’s +4 pp shows meaningful lift.
 
 * **Recall 0.65**  
   We capture ~⅔ of real buyers—critical for campaign ROI. Precision remains > 50 %, so more than half of placed calls convert.
